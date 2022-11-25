@@ -1,5 +1,11 @@
 #ifndef utilitaire_hpp
 #define utilitaire_hpp
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <map>
+using namespace std;
 
 void readFileIntoString(const std::string& path, std::string & content);
 void remove_punctuation(std::string &word);
