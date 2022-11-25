@@ -6,8 +6,6 @@ using namespace std;
 
 #include "utilitaire.hpp"
 
-
-
 /**
  Lit le fichier dans le chemin d'entrée path et met son contenu sous forme d'une string dans content
  */
